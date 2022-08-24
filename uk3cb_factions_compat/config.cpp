@@ -1,5 +1,5 @@
 class CfgPatches {
-	class uk3cb_factions_compat {
+	class UK3CB_Factions_Compat {
 		author = "Skippie";
 		name = "UK3CB Factions - Compatibilities";
 		url = "https://github.com/SkippieDippie/3CB-Faction-Compatibilities";
