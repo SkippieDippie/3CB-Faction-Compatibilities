@@ -1,6 +1,6 @@
 class CfgPatches {
-	class uk3cb_factions_acre_compat_landrover {
-		addonRootClass = "uk3cb_factions_compat";
+	class UK3CB_Factions_ACRE_Compat_Landrover {
+		addonRootClass = "UK3CB_Factions_Compat";
 
 		requiredAddons[] = { "UK3CB_Factions_Vehicles_LandRover" };
 		requiredVersion = 1.0;
