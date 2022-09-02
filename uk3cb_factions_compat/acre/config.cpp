@@ -7,8 +7,12 @@ class CfgPatches {
         
 
         requiredAddons[] = {
+            "UK3CB_Factions_Vehicles_AAV",
+            "UK3CB_Factions_Vehicles_HMMWV",
             "UK3CB_Factions_Vehicles_LandRover",
-            "UK3CB_Factions_Vehicles_M1117"
+            "UK3CB_Factions_Vehicles_LAV25",
+            "UK3CB_Factions_Vehicles_M1117",
+            "UK3CB_Factions_Vehicles_Vodnik"
         };
         requiredVersion = 1.0;
 
@@ -37,7 +41,12 @@ class CfgVehicles {
 
     class UK3CB_LandRover_Base;
 
+    class UK3CB_LAV25_Base;
+
     class rhsusf_M1117_base;
+
+    class UK3CB_GAZ_Vodnik_Base;
+
 
 
     class UK3CB_AAV : APC_Tracked_01_base_F {
@@ -106,6 +115,7 @@ class CfgVehicles {
     };
 
 
+
     class UK3CB_LandRover : UK3CB_LandRover_Base {
         ACRE_DELETE
     };
@@ -132,7 +142,47 @@ class CfgVehicles {
 
 
 
+    class UK3CB_LAV25 : UK3CB_LAV25_Base {
+        ACRE_DELETE
+    };
+
+    class UK3CB_LAV25_HQ : UK3CB_LAV25_Base {
+        ACRE_DELETE
+    };
+
+
+
     class UK3CB_M1117_base : rhsusf_M1117_base {
+        ACRE_DELETE
+    };
+
+
+
+    class UK3CB_GAZ_Vodnik : UK3CB_GAZ_Vodnik_Base {
+        ACRE_DELETE
+    };
+
+    class UK3CB_GAZ_Vodnik_MedEvac : UK3CB_GAZ_Vodnik_Base {
+        ACRE_DELETE
+    };
+
+    class UK3CB_GAZ_Vodnik_KVPT : UK3CB_GAZ_Vodnik_Base {
+        ACRE_DELETE
+    };
+
+    class UK3CB_GAZ_Vodnik_HMG : UK3CB_GAZ_Vodnik_Base {
+        ACRE_DELETE
+    };
+
+        class UK3CB_GAZ_Vodnik_GMG : UK3CB_GAZ_Vodnik_Base {
+        ACRE_DELETE
+    };
+
+    class UK3CB_GAZ_Vodnik_PKT : UK3CB_GAZ_Vodnik_Base {
+        ACRE_DELETE
+    };
+
+    class UK3CB_GAZ_Vodnik_Cannon : UK3CB_GAZ_Vodnik_Base {
         ACRE_DELETE
     };
 };

@@ -2,7 +2,7 @@ class CfgPatches {
     class SK_3CBFactions_Compat_ACRE_AAV {
         addonRootClass = "SK_3CBFactions_Compat_ACRE";
 
-        requiredAddons[] = { "UK3CB_Factions_Vehicles_AAV" };
+        requiredAddons[] = { "SK_3CBFactions_Compat_ACRE" };
         requiredVersion = 1.0;
 
         units[] = {};
@@ -27,7 +27,7 @@ class CfgVehicles {
 
                 allowedPositions[] = {
                     "commander", 
-                    {"cargo", 16}
+                    {"cargo", 7, 16}
                 };
                 disabledPositions[] = {};
 
@@ -44,7 +44,7 @@ class CfgVehicles {
 
                 allowedPositions[] = {
                     "commander", 
-                    {"cargo", 16}
+                    {"cargo", 7, 16}
                 };
                 disabledPositions[] = {};
 
@@ -89,7 +89,7 @@ class CfgVehicles {
                 limitedPositions[] = {};
                 numLimitedPositions = 0;
 
-                connectedByDefault = 1;
+                connectedByDefault = 0;
             };
         };
     };
