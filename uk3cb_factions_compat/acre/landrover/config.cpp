@@ -93,7 +93,7 @@ class CfgVehicles {
                 limitedPositions[] = {};
                 numLimitedPositions = 0;
 
-                masterPositions[] = {{"ffv", 0, [0]}};
+                masterPositions[] = {"commander"};
                 connectedByDefault = 1;
             };
         };
@@ -161,7 +161,7 @@ class CfgVehicles {
                 limitedPositions[] = {};
                 numLimitedPositions = 0;
 
-                masterPositions[] = {{"ffv", 0, [0]}};
+                masterPositions[] = {"commander"};
                 connectedByDefault = 1;
             };
         };
