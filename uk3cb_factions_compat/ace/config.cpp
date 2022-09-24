@@ -1,6 +1,6 @@
 class CfgPatches {
     class UK3CB_Factions_ACE_Compat {
-        addonRootClass = "uk3cb_factions_compat";
+        addonRootClass = "CVO_3CBFactions_Compats";
 
         requiredAddons[] = {
             "UK3CB_Factions_Vehicles_Hilux",
@@ -14,8 +14,7 @@ class CfgPatches {
     };
 };
 
-class CfgVehicles 
-{
+class CfgVehicles {
     class UK3CB_Hilux_Base;
     class UK3CB_S1203_BASE;
     class UK3CB_UH1H_BASE;
